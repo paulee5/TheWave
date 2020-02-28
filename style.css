@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.offset:before{
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+/*~~~ Navigation ~~~*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.navbar-brand img{
+    height: 5rem;
+}
+.navbar-nav li {
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ee0606;
+}
