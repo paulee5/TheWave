@@ -17,10 +17,10 @@
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="product.php">Products</a></li>
+                    <li><a href="aboutus.php">About Us</a></li>
+                    <li><a href="login.php">Login</a></li>
+                    <li><a href="shoppingcart.php"><i class="fas fa-shopping-cart"></i>Shopping Cart</a></li>
                 </ul>
             </div>
             <span class="navTrigger">
